@@ -60,9 +60,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Domande frequenti - Privacy e termini - Google</title>
 </head>
 <body>
     
+    <div class="container">
+        <h1> <?php echo $faqs[0]['faq'] ; ?> </h1>
+        <p> <?php echo $faqs[0]['risposta']['p1']; ?></p>
+        <p> <?php echo $faqs[0]['risposta']['p2']; ?></p>
+        <p> <?php echo $faqs[0]['risposta']['p3']; ?></p>
+        <p> <?php echo $faqs[0]['risposta']['p4']; ?></p>
+        <p> <?php echo $faqs[0]['risposta']['p5']; ?></p>
+
+        <h1> <?php echo $faqs[1]['faq'] ; ?> </h1>
+        <p> <?php echo $faqs[1]['risposta']['p1']; ?></p>
+        <p> <?php echo $faqs[1]['risposta']['p2']; ?></p>
+        <p> <?php echo $faqs[1]['risposta']['p3']; ?></p>
+        <p> <?php echo $faqs[1]['risposta']['p4']; ?></p>
+
+        <h1> <?php echo $faqs[2]['faq'] ; ?> </h1>
+        <p> <?php echo $faqs[2]['risposta']['p1']; ?></p>
+
+        <h1> <?php echo $faqs[3]['faq'] ; ?> </h1>
+        <p> <?php echo $faqs[3]['risposta']['p1']; ?></p>                 
+    </div>
+
 </body>
 </html>
